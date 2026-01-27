@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: anthropic
+
+  ai:
+    anthropic:
+      base-url: https://api.anthropic.com
+      api-key: ${ANTHROPIC_API_KEY}
+      chat:
+        options:
+          model: claude-sonnet-4-5
+          temperature: 0.8
